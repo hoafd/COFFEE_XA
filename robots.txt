@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hoafd.github.io/COFFEE_XA/sitemap.xml
