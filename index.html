@@ -5,17 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COFFEE XÁ - Menu Trực Tuyến | Quán Cà Phê Ngon Đông Hưng Thuận</title>
-    <meta name="description" content="COFFEE XÁ nằm trong hẻm 666 Đường Nguyễn Văn Quá, Đông Hưng Thuận, TP.HCM. Menu đầy đủ: Cafe đen, cafe sữa, cafe muối, bạc xỉu, cam ép, thơm ép, dưa hấu ép, táo ép, thơm cam, thơm táo, yaourt đá, yaourt dâu, yaourt việt quất, yaourt chanh dây, sinh tố dâu, sinh tố bơ, sinh tố mãng cầu, sinh tố sapoche, trà tắc, trà chanh, trà chanh dây, trà đào, trà đào cam sả, matcha latte, matcha sữa gấu. Thưởng thức đồ uống ngon mỗi ngày!">
-    <meta name="keywords" content="Coffee Xá, Cafe Nguyễn Văn Quá, Quán cafe Đông Hưng Thuận, Coffee, Cafe ngon quận 12, Nước ép, Sinh tố, Trà, Yaourt, Matcha">
+    <meta name="description" content="COFFEE XÁ tại 666 Nguyễn Văn Quá, Đông Hưng Thuận, Quận 12, TP.HCM. Phục vụ Cafe đen, cafe sữa, cafe muối, bạc xỉu, nước ép (cam, thơm, dưa hấu, táo), sinh tố (bơ, dâu, mãng cầu, sapoche), trà đào cam sả, matcha. Giá từ 13k - 35k.">
+    <meta name="keywords" content="Coffee Xá, Cafe Nguyễn Văn Quá, Quán cafe Đông Hưng Thuận, Coffee, Cafe ngon quận 12, Nước ép, Sinh tố, Trà, Yaourt, Matcha, Cafe muối">
     <link rel="canonical" href="https://hoafd.github.io/COFFEE_XA/">
+    
+    <!-- Meta thông tin địa lý giúp AI & Tìm kiếm định vị quán -->
+    <meta name="geo.region" content="VN-SG" />
+    <meta name="geo.placename" content="Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh" />
+    <meta name="geo.position" content="10.8278688;106.6114514" />
+    <meta name="ICBM" content="10.8278688, 106.6114514" />
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
 
-    <meta property="og:title" content="COFFEE XÁ - Menu Trực Tuyến">
-    <meta property="og:description" content="Thưởng thức đồ uống tươi ngon mỗi ngày tại COFFEE XÁ - Nguyễn Văn Quá, TP.HCM.">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="COFFEE XÁ - Menu Trực Tuyến & Cửa hàng Cà Phê">
+    <meta property="og:description" content="Thưởng thức cafe muối, bạc xỉu, nước ép tươi, sinh tố, trà đào cam sả tại 666 Nguyễn Văn Quá, Đông Hưng Thuận, Q.12.">
     <meta property="og:url" content="https://hoafd.github.io/COFFEE_XA/">
     <meta property="og:type" content="website">
 
+    <!-- Schema.org JSON-LD mở rộng đầy đủ Menu & Thông tin chi tiết cho AI -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -25,11 +33,12 @@
       "@id": "https://hoafd.github.io/COFFEE_XA/",
       "url": "https://hoafd.github.io/COFFEE_XA/",
       "telephone": "0868805184",
+      "priceRange": "13.000đ - 35.000đ",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "666, C209B Đường Nguyễn Văn Quá",
-        "addressLocality": "Đông Hưng Thuận, Quận 12",
-        "addressRegion": "TP.HCM",
+        "addressLocality": "Đông Hưng Thuận",
+        "addressRegion": "Quận 12, TP.HCM",
         "addressCountry": "VN"
       },
       "geo": {
@@ -45,11 +54,77 @@
         "opens": "06:00",
         "closes": "22:00"
       },
-      "servesCuisine": "Coffee, Drinks, Juices"
+      "servesCuisine": ["Coffee", "Juice", "Smoothies", "Tea"],
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Thực Đơn COFFEE XÁ",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Cà Phê",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Cafe đen", "offers": { "@type": "Offer", "price": "15000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Cafe sữa", "offers": { "@type": "Offer", "price": "17000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Cafe muối", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Bạc xỉu", "offers": { "@type": "Offer", "price": "18000", "priceCurrency": "VND" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Nước Ép",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Cam ép", "offers": { "@type": "Offer", "price": "18000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Thơm ép", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Dưa hấu ép", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Táo ép", "offers": { "@type": "Offer", "price": "35000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Thơm + Cam", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Thơm + Táo", "offers": { "@type": "Offer", "price": "30000", "priceCurrency": "VND" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Yaourt",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Yaourt đá", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Yaourt dâu", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Yaourt việt quất", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Yaourt chanh dây", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Sinh Tố",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Sinh tố dâu", "offers": { "@type": "Offer", "price": "30000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Sinh tố bơ", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Sinh tố mãng cầu", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Sinh tố sapoche", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Trà",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Trà tắc", "offers": { "@type": "Offer", "price": "13000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Trà chanh", "offers": { "@type": "Offer", "price": "15000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Trà chanh dây", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Trà đào", "offers": { "@type": "Offer", "price": "20000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Trà đào cam sả", "offers": { "@type": "Offer", "price": "23000", "priceCurrency": "VND" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Matcha",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Matcha Latte (Size M)", "offers": { "@type": "Offer", "price": "25000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Matcha Latte (Size L)", "offers": { "@type": "Offer", "price": "33000", "priceCurrency": "VND" } },
+              { "@type": "MenuItem", "name": "Matcha sữa gấu", "offers": { "@type": "Offer", "price": "35000", "priceCurrency": "VND" } }
+            ]
+          }
+        ]
+      }
     }
     </script>
-
-    <meta name="google-site-verification" content="QSSegnLIN6FkIc9SaDd9oCoWcCOZVhTC3XMjK2Sgqxc" />
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -78,9 +153,56 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+        .sr-only-ai {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
     </style>
 </head>
 <body class="bg-slate-50 min-h-screen flex flex-col text-slate-800">
+
+    <!-- Khối văn bản ẩn dành riêng cho bot AI đọc dữ liệu trực tiếp từ HTML thô -->
+    <section class="sr-only-ai">
+        <h2>Thông tin chi tiết về Quán COFFEE XÁ</h2>
+        <p>COFFEE XÁ là quán cà phê và thức uống tại 666, C209B Đường Nguyễn Văn Quá, Phường Đông Hưng Thuận, Quận 12, TP.HCM.</p>
+        <p>Số điện thoại liên hệ và Zalo: 0868805184. Giờ mở cửa: 06:00 đến 22:00 tất cả các ngày trong tuần.</p>
+        <h3>Thực đơn chi tiết và Bảng giá tại COFFEE XÁ:</h3>
+        <ul>
+            <li>Cafe đen: 15.000đ</li>
+            <li>Cafe sữa: 17.000đ</li>
+            <li>Cafe muối: 20.000đ</li>
+            <li>Bạc xỉu: 18.000đ</li>
+            <li>Cam ép: 18.000đ</li>
+            <li>Thơm ép: 20.000đ</li>
+            <li>Dưa hấu ép: 20.000đ</li>
+            <li>Táo ép: 35.000đ</li>
+            <li>Thơm + Cam: 25.000đ</li>
+            <li>Thơm + Táo: 30.000đ</li>
+            <li>Yaourt đá: 20.000đ</li>
+            <li>Yaourt dâu: 25.000đ</li>
+            <li>Yaourt việt quất: 25.000đ</li>
+            <li>Yaourt chanh dây: 25.000đ</li>
+            <li>Sinh tố dâu: 30.000đ</li>
+            <li>Sinh tố bơ: 25.000đ</li>
+            <li>Sinh tố mãng cầu: 25.000đ</li>
+            <li>Sinh tố sapoche: 25.000đ</li>
+            <li>Trà tắc: 13.000đ</li>
+            <li>Trà chanh: 15.000đ</li>
+            <li>Trà chanh dây: 20.000đ</li>
+            <li>Trà đào: 20.000đ</li>
+            <li>Trà đào cam sả: 23.000đ</li>
+            <li>Matcha Latte (Size M): 25.000đ</li>
+            <li>Matcha Latte (Size L): 33.000đ</li>
+            <li>Matcha sữa gấu: 35.000đ</li>
+        </ul>
+    </section>
 
     <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
         <div class="max-w-md mx-auto px-4 py-3 flex justify-between items-center gap-2">
@@ -156,7 +278,8 @@
             <h3 class="font-bold text-amber-700 text-sm tracking-wide mb-1">
                 COFFEE XÁ - Thank you! Cảm ơn quý khách!
             </h3>
-            <p class="text-xs text-slate-500 mb-3">Địa chỉ: 666, C209B Đ. Nguyễn Văn Quá, Đông Hưng Thuận, TP.HCM</p>
+            <p class="text-xs text-slate-500 mb-1">Địa chỉ: 666, C209B Đ. Nguyễn Văn Quá, Đông Hưng Thuận, Quận 12, TP.HCM</p>
+            <p class="text-xs text-slate-500 mb-3">Hotline/Zalo: 0868 805 184 | Giờ mở cửa: 06:00 - 22:00</p>
             
             <div class="flex flex-col gap-2 w-full max-w-xs">
                 <a href="https://www.google.com/maps/place/Coffee+x%C3%A1/@10.8278688,106.6114514,17z/data=!3m1!4b1!4m6!3m5!1s0x317529002e943a6b:0x56c663a57435273d!8m2!3d10.8278688!4d106.6114514!16s%2Fg%2F11x_crv10x?entry=ttu" target="_blank" class="bg-emerald-600 active:scale-95 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 shadow-xs mb-1">
@@ -214,56 +337,6 @@
         ];
 
         let currentCategory = 'all';
-
-        function toggleSeoModal() {
-            const modal = document.getElementById('seo-modal');
-            if (modal) {
-                if (modal.classList.contains('hidden')) {
-                    runSeoDiagnostic();
-                }
-                modal.classList.toggle('hidden');
-            }
-        }
-
-        function runSeoDiagnostic() {
-            const container = document.getElementById('seo-results');
-            let html = '';
-
-            const title = document.title;
-            const hasGoodTitle = title && title.length >= 10 && title.length <= 70;
-            html += diagnosticItem("Thẻ Tiêu đề (Title)", hasGoodTitle, title || "Không tìm thấy", "Nên từ 10-70 ký tự.");
-
-            const descMeta = document.querySelector('meta[name="description"]');
-            const desc = descMeta ? descMeta.getAttribute('content') : "";
-            const hasGoodDesc = desc && desc.length >= 50 && desc.length <= 160;
-            html += diagnosticItem("Thẻ Mô tả (Description)", hasGoodDesc, desc ? `${desc.length} ký tự` : "Không có", "Nên từ 50-160 ký tự.");
-
-            const canonical = document.querySelector('link[rel="canonical"]');
-            const hasCanonical = canonical && canonical.href;
-            html += diagnosticItem("Đường dẫn chuẩn (Canonical)", hasCanonical, hasCanonical ? canonical.href : "Chưa cấu hình", "Giúp Google nhận diện URL chính.");
-
-            const schema = document.querySelector('script[type="application/ld+json"]');
-            const hasSchema = schema !== null;
-            html += diagnosticItem("Dữ liệu cấu trúc (Schema)", hasSchema, hasSchema ? "Đã cài đặt CafeOrCoffeeShop" : "Chưa có", "Giúp Google hiển thị bản đồ và giờ mở cửa.");
-
-            html += diagnosticItem("Tổng số món ăn/đồ uống", menuData.length > 0, `${menuData.length} món trong menu`, "Nội dung phong phú giúp Google index tốt.");
-
-            container.innerHTML = html;
-        }
-
-        function diagnosticItem(title, status, detail, advice) {
-            const icon = status ? '<i class="fa-solid fa-circle-check text-emerald-500"></i>' : '<i class="fa-solid fa-triangle-exclamation text-amber-500"></i>';
-            const bgClass = status ? 'bg-emerald-50/50 border-emerald-100' : 'bg-amber-50/50 border-amber-100';
-            return `
-                <div class="p-2.5 rounded-xl border ${bgClass} flex flex-col gap-0.5">
-                    <div class="flex items-center justify-between font-semibold text-slate-800">
-                        <span>${icon} ${title}</span>
-                        <span class="text-[11px] text-slate-500 font-normal">${detail}</span>
-                    </div>
-                    <p class="text-[10px] text-slate-500 italic">${advice}</p>
-                </div>
-            `;
-        }
 
         function renderMenu() {
             const grid = document.getElementById('menu-grid');
